@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style_index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section>  
+    <h1 class="textoPedra">PEDRA</h1><h1 class="virgula">,</h1> <h1 class="textoPapel">PAPEL</h1><h1 class="virgula" >,</h1><h1 class="textoTesoura" >TESOURA</h1>
+  </section>
+
+ <section>
+   <p>Escolha uma opção para começar o jogo:</p>
+  </section>
+
+  <section>
+  <button class="botaoPedra" onclick="jogar('pedra')" >Pedra</button>
+  <button class="botaoPapel" onclick="jogar('papel')" >Papel</button>
+  <Button class="botaoTesoura" onclick="jogar('tesoura')">Tesoura</BUtton>
+  </section>
+
+</section>
+<h1 id="res"></h1>
+</section>
+  
+  <section>
+    <section id="jogo">
+
+      <div class="borda">
+        <img id="imagemAleatoria" src="" alt="Player">
+        <img id="imagemPlayer" class="player" src="" alt="Computador">
+
+        <section class="textoJogo">
+          <h1 class="voceText" id="voceText">VOCÊ</h1>
+          <h1 class="voceText" id="compText">COMPUTADOR</h1>
+        </section>
+
+
+      </section>
+      <div id="link">
+        <a href="http://www.freepik.com" target="_blank">Imagens de macrovector / Freepik</a>
+    </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(43, 45, 66);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+button, h1, p {
+    display: inline-block;
+}
+
+button {
+    background-color:rgb(112, 121, 136);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    max-width: 200px;
+    margin: 20px;
+    font-size: 12pt;
+    font-weight: 200;
+
+}
+
+button:hover {
+    background-color: #C20E4D;
+    cursor: pointer;
+}
+
+.textoPedra, .textoTesoura, .textoPapel, .virgula {
+    color: rgb(237, 242, 244);
+    font-size: 40pt;
+    margin-top: 70px;
+}
+
+p {
+    color: rgb(141, 153, 174);
+    margin-bottom: 10px;
+    font-size: 15pt;
+
+}
+
+a {
+    color: white;
+    padding-top: 300px;
+}
+
+.voceText {
+    font-size: 15pt;
+    color: #001731;
+
+}
+
+#voceText {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+
+
+}
+
+#compText {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+
+.textoPedra:hover {
+    color:  #06B7DB;
+    cursor: pointer;
+}
+
+.textoTesoura:hover {
+    color: #F31260;
+    cursor: pointer;
+
+}
+
+.textoPapel:hover {
+    color: #17C964;
+    cursor: pointer;
+
+}
+
+.botaoPedra:hover {
+    background-color:  #06B7DB;
+}
+
+.botaoPapel:hover {
+    background-color: #17C964;;
+}
+
+.botaoTesoura:hover {
+    background-color: #F31260;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+
+  }
+
+.borda { 
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid #51515a;
+}
+
+
+.textoJogo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player {
+    float: left;
+}
+
+.textoJogo {
+    position: relative;
+}
+
+#jogo {
+    display: none;
+}
+
+#link {
+    display: none;
+}
